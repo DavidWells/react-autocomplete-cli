@@ -46,7 +46,8 @@ function generateCompletions() {
     if (err) {
       return console.log(err)
     }
-    console.log('autocomplete tokens generated')
+    console.log('React Component Autocomplete tokens generated!')
+    console.log(`see: ${cwd}/completions.json`)
   })
 }
 
