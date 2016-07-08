@@ -2,6 +2,10 @@
 
 CLI to automatically generate autocompletions for react components
 
+Works with this [atom plugin](https://atom.io/packages/atom-react-autocomplete)
+
+### [Video demo](http://www.youtube.com/watch?v=UhR0JuWWhGI)
+
 ## Usage:
 
 1. Create `.importjs.json` file and specify your component paths
