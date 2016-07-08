@@ -1,0 +1,33 @@
+{
+  "name": "react-autocomplete-cli",
+  "version": "0.0.1",
+  "description": "CLI tool to generate autocompletions for react components",
+  "main": "generate-completions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rc-autocomplete": "generate-completions.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidWells/react-autocomplete-cli.git"
+  },
+  "keywords": [
+    "autocomplete",
+    "proptypes",
+    "react",
+    "atom"
+  ],
+  "author": "David Wells",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidWells/react-autocomplete-cli/issues"
+  },
+  "homepage": "https://github.com/DavidWells/react-autocomplete-cli#readme",
+  "dependencies": {
+    "react-docgen": "^2.9.1",
+    "shelljs": "^0.7.0",
+    "yargs": "^4.7.1"
+  }
+}
