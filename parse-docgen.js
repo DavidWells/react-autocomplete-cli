@@ -8,7 +8,7 @@ var cwd = process.cwd()
  * @return {json} data used by provider.js autocomplete+
  */
 
-var output = path.join(__dirname, 'lib', 'react-doc-gen-output.json')
+var output = path.join(__dirname, 'react-doc-gen-output.json')
 
 function generateCompletions() {
   var tokenFile = JSON.parse(fs.readFileSync(output, 'utf-8'))

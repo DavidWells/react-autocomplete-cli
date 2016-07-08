@@ -7,7 +7,7 @@ var generateCompletions = require('./parse-docgen')
 var cwd = process.cwd()
 var importJSConfigPath = path.join(cwd, '.importjs.json')
 var docGenPath = path.join(cwd, 'node_modules', 'react-docgen', 'bin', 'react-docgen.js')
-var tmpOutput = path.join(__dirname, 'lib', 'react-doc-gen-output.json')
+var tmpOutput = path.join(__dirname, 'react-doc-gen-output.json')
 var componentsPath
 
 if (fs.existsSync(importJSConfigPath)) {
