@@ -17,6 +17,7 @@ function generateCompletions() {
   }
   for (var key in tokenFile) {
     var componentName = path.basename(key, '.js')
+    componentName = path.basename(componentName, '.jsx')
     if(componentName === 'index') {
       var componentName = capitalizeFirstLetter(path.basename(path.dirname(key)))
       console.log('Component name is index. Change to (D)irectory name', componentName)
